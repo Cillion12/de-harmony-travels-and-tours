@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+    background-image: url(images/kaaba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-color: rgb(134, 134, 134, 0.11);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(1.7px);
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    /* text-align: center; */
+}
+.container{
+    background-image: url(images/kaaba.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.logo h1{
+    color: white;
+    
+}
+.textparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textchild{
+    height: 80vh;
+    width: 450px;
+    background-color: rgb(134, 134, 134, 0.11);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(1.7px);
+    margin-top: 80px;
+    border-radius: 50% 50% 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+}
+.h1li{
+    color: aliceblue;
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 39px;
+}
+.p1{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.list1{
+    display: flex;
+    flex-direction: row;
+}
+.list3{
+    margin-left: 19px;
+}
+.list2{
+    display: flex;
+    flex-direction: row;
+}
+.list4{
+    margin-left: 36px;
+}
+.pbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.pbutton{
+    padding: 20px;
+}
+.pbutton button{
+    border-radius: 10px;
+    background-color: rgba(218, 34, 34, 0.11);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(1.7px);
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.pbutton .p2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+} 
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.h3{
+    text-align: center;
+    margin-top: 40vh;
+    background-color: rgba(26, 24, 24, 0.11);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(1.7px);
+}
+h3{
+    font-size: 30px;
+}
+.imagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.imagewrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    /* height: 80vh; */
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(134, 134, 134, 0.11);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(1.7px);
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* margin: 5px; */
+    /* margin-left: 20px; */
+}
+.imagewrapper .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(134, 134, 134, 0.11);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(1.7px);
+    /* margin-left: 20px; */
+    /* flex-wrap: wrap; */
+}
+.imagewrapper .box img{
+    max-width: 100%;
+    border-radius: 7px;
+}
+.imagewrapper .box:hover{
+    transform: scale(1.1);
+
+}
+.H4{
+    text-align: center;
+    background-color: rgb(134, 134, 134, 0.11);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(1.7px);
+    padding: 20px;
+}
+h4{
+    font-size: 30px;
+}
+.VIDEO {
+    margin-top: 20px;
+    box-shadow: 4px 3px grey;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.video video{
+    max-width: 100%;
+    margin: 20px;
+}
+.othertextparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.othertextchild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #fff;
+    color: rgb(189, 71, 71);
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    /* position: relative; */
+}
+h5{
+    color: rgb(189, 71, 71);
+    font-size: 30px;
+    /* position: absolute; */
+}
+h6{
+    margin: 10px;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.copyright{
+    text-align: center;   
+}
+.picon{
+    font-size: 20px;
+}
